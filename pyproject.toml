@@ -1,0 +1,20 @@
+[project]
+name = "hw-agentic-rag"
+version = "0.1.0"
+description = "Agentic RAG with ReAct pattern (LangGraph translation of 4c notebook)"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "langchain>=0.3.23",
+    "langchain-core>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-classic>=0.0.1",
+    "langchain-openai>=0.2.13",
+    "langchain-text-splitters>=0.3.0",
+    "langchain-tavily>=0.1.0",
+    "langgraph>=1.0.1",
+    "faiss-cpu>=1.8.0",
+    "flashrank>=0.2.10",
+    "google-search-results>=2.4.2",
+    "beautifulsoup4>=4.12.0",
+    "python-dotenv>=1.0.1",
+]

@@ -1,0 +1,26 @@
+# API keys — NEVER commit this
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Generated outputs
+agent_graph.png
+outputs/
+
+# uv lock (optional to include — keeping it for reproducibility)
+# uv.lock
